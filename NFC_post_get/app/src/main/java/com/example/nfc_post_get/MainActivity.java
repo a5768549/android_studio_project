@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
     mTechList = new String[][]{new String[]{MifareClassic.class.getName()}}; // 只處理 MifareClassic 的 tag
   }
 
+  @Override
   protected void onResume() {
     super.onResume();
     mAdapter.enableForegroundDispatch(
@@ -86,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
     );
   }
 
+  @Override
   protected void onPause() {
     super.onPause();
     mAdapter.disableForegroundDispatch(this);
