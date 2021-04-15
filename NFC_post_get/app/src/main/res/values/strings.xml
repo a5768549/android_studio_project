@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NFC_post_get</string>
+    <string name="string_tagId">TagID:</string>
+    <string name="string_cardId">00000000</string>
+    <string name="string_status">No tag yet</string>
+    <string name="string_button1">POST TAG WITH ID</string>
+    <string name="string_button2">GET TAG WITH ID</string>
+    <string name="string_button3">GET LAST UPLOADED TAG</string>
+    <string name="string_button4">DELETE</string>
+</resources>
